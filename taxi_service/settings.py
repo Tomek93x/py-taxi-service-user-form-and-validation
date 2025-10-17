@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "debug_toolbar",
     "crispy_forms",
-    "crispy_bootstrap4",  # <-- DODAJ TO DLA Bootstrap4 Support
+    "crispy_bootstrap4",
     "taxi",
 ]
 
