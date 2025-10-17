@@ -5,6 +5,8 @@
   <form action="" method="post">
     {% csrf_token %}
     <input type="submit" value="Yes" class="btn btn-danger">
-    <a href="{% url 'taxi:driver-detail' object.id %}" class="btn btn-secondary">Cancel</a>
+    <a href="#" onclick="history.back(); return false;" class="btn btn-secondary">
+      Cancel
+    </a>
   </form>
 {% endblock %}
